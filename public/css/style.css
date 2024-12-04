@@ -1,0 +1,101 @@
+body {
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+    line-height: 1.6;
+    color: #333;
+  }
+  
+  .container {
+    width: 90%;
+    max-width: 1200px;
+    margin: auto;
+  }
+  
+  .header {
+    background: #4CAF50;
+    color: white;
+    padding: 10px 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .logo {
+    font-size: 1.5em;
+  }
+  
+  .logo span {
+    color: #FFD700;
+  }
+  
+  .navbar a {
+    color: white;
+    text-decoration: none;
+    margin: 0 10px;
+  }
+  
+  .navbar a:hover {
+    text-decoration: underline;
+  }
+  
+  .hero {
+    background: url('/images/hero.jpg') no-repeat center center/cover;
+    color: white;
+    text-align: center;
+    padding: 100px 20px;
+  }
+  
+  .hero .btn {
+    background: #FFD700;
+    color: #333;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+    font-weight: bold;
+  }
+  
+  .hero .btn:hover {
+    background: #FFC107;
+  }
+  
+  .categories, .products {
+    padding: 50px 0;
+  }
+  
+  .category-grid, .product-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 20px;
+  }
+  
+  .product-card {
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    text-align: center;
+    padding: 10px;
+  }
+  
+  .product-card img {
+    width: 100%;
+    border-bottom: 1px solid #ddd;
+    margin-bottom: 10px;
+  }
+  
+  .footer {
+    background: #333;
+    color: white;
+    text-align: center;
+    padding: 20px;
+    margin-top: 20px;
+  }
+  
+  .footer .socials li {
+    display: inline;
+    margin: 0 10px;
+  }
+  
+  .footer .socials a {
+    color: #FFD700;
+    text-decoration: none;
+  }
+  
